@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="hu" class="h-100">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pitagorasz</title>
+    <link rel="icon" type="image/x-icon" href="../images/pitagorasz_ikon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="../CSS/style.css" rel="stylesheet">
+    <style>
+        body {
+            padding-bottom: 6rem;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <main class="container">
+        <header>
+            <div class="p-3 p-md-4 mx-auto text-center">
+                <h1 class="display-4 fw-normal">Pitagorasz-tétel</h1>
+                <p class="fs-5 text-muted">A Pitagorasz-tétel vagy Pitagorasz tétele az euklideszi geometria egyik
+                    alapvető állítása.</p>
+            </div>
+        </header>
+        <img src="../images/pitagorasz_24x9.jpg"
+            class="mb-4 d-block w-100 pitagorasz_hatter img-fluid hatterszin2 w-100 img-thumbnail img-fluid mx-auto"
+            alt="pitagorasz">
+
+
+        <div class="row lg-2">
+            <div
+                class="row hatterszin2 text-white g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col-lg-9 p-4 d-flex flex-column position-static">
+                    <h3>Tudománytörténeti jelentőség</h3>
+                    <p class="card-text mb-auto">A párhuzamossági posztulátum mellett az euklideszi geometria egyik
+                        központi tétele, nem-euklideszi rendszerekben (mint pl. a Minkowski-geometria) nem is
+                        feltétlenül érvényes. Felfedezését és első bizonyítását az i. e. 6. században élt
+                        matematikusnak és filozófusnak, Püthagorasznak tulajdonítják, pedig indiai, görög, kínai és
+                        babilóniai matematikusok már ismerték a tételt jóval Püthagorasz előtt, és a kínaiak
+                        bizonyítást is adtak rá.</p>
+                </div>
+                <div class="col-lg-3 d-none d-lg-block">
+                    <img class="img-fluid mx-auto" src="../images/pitagorasz-tetel_kinai.ppm">
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-5">
+            <div class="col-md-8">
+                <article>
+                    <div class="row">
+                        <div class="col-lg-9">
+                            <h2 class="mb-1">A tétel</h2>
+                            <p class="">Bármely derékszögű háromszög leghosszabb oldalának (átfogójának) négyzete
+                                megegyezik a másik két oldal (a befogók) négyzetösszegével. Tehát: ha egy háromszög
+                                derékszögű,
+                                akkor a leghosszabb oldalára emelt négyzet területe a másik két oldalra emelt négyzetek
+                                területének összegével egyenlő.
+                                A szokásos jelölésekkel (c az átfogó): <img class="img-fluid mx-auto rounded"
+                                    src="../images/pitagorasz-tetel.svg" width="150px"></p>
+
+                        </div>
+                        <div class="col-lg-3 d-none d-lg-block"><img class="img-fluid d-block mx-auto w-100"
+                                src="../images/derekszogu-haromszog.png"></div>
+                        <h3>A Pitagorasz-tétel másik megfogalmazása:</h3>
+                        <p>
+
+                            Tetszőleges derékszögű háromszögben a befogók fölé írt négyzetek területeinek összege
+                            megegyezik
+                            az átfogó fölé írt négyzet területével.</p>
+
+                    </div>
+                    <hr>
+                    <h3>A tétel megfordítása</h3>
+                    <p>(nem azonos magával a Pitagorasz-tétellel):
+                        Ha egy háromszög két oldalhosszának négyzetösszege egyenlő a harmadik oldal hosszának
+                        négyzetével, akkor a háromszög derékszögű.
+                        Ugyanez más megfogalmazásban:
+
+                        Ha a, b és c pozitív számokra igaz, hogy <img class="img-fluid mx-auto rounded"
+                            src="../images/pitagorasz-tetel.svg" width="150px">,
+                        akkor van olyan háromszög, amelynek ekkorák az oldalai, és a háromszög derékszögű (c az átfogó).
+                        Az alábbiak akkor igazak, ha a szabály szerint, c-vel jelöljük az átfogót.</p>
+                    <hr>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h2>A Tétel videós magyarázata:</h2>
+                        </div>
+                        <div class="col-lg-12 embed-responsive embed-responsive-16by9">
+                            <iframe class="w-100 embed-responsive-item" height="500"
+                                src="https://www.youtube.com/embed/5qB-oZEEzCg" title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h1>Próbálja ki Python programunkat a "show files" lenyomásával és "main.py" indításával:</h1>
+                        </div>
+                        <div class="col-lg-12 embed-responsive embed-responsive-16by9">
+                            <iframe class="w-100 embed-responsive-item" frameborder="0" height="500px" src="
+                                https://replit.com/@GergoMedve/medvegergo-vicziandanielpitagorasz?embed=true"></iframe>
+                        </div>
+                    </div>
+                    <hr>
+                    <h2 class="mb-1">Gyakorló feladatok:</h2>
+                    <p><b>1.</b> Számítsuk ki a derékszögű háromszög hiányzó oldalhosszát!</p>
+                    <table class="table table-borderless">
+                        <tbody>
+                            <tr>
+
+                                <td>a = 3 cm</td>
+                                <td>b = 4 cm</td>
+                                <td>c = ?</td>
+                            </tr>
+                            <tr>
+
+                                <td>a = 5 cm</td>
+                                <td>b = 7 cm</td>
+                                <td>c = ?</td>
+                            </tr>
+                            <tr>
+                                <td>b = 5 cm</td>
+                                <td>c = 13 cm</td>
+                                <td>a = ?</td>
+                            </tr>
+                            <tr>
+                                <td>b = 10 cm</td>
+                                <td>c = 21</td>
+                                <td>a = ?</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p><b>2.</b> Lehetségesek-e a következő derékszögű háromszögek?</p>
+                    <table class="table table-borderless">
+                        <tbody>
+                            <tr>
+                                <th scope="row">I/H?</th>
+                                <td>a = 16 cm</td>
+                                <td>b = 23 cm</td>
+                                <td>c = 40 cm</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">I/H?</th>
+                                <td>a = 5,6 mm</td>
+                                <td>b = 9 mm</td>
+                                <td>c = 10,5 mm</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">I/H?</th>
+                                <td>b = 7,8 dm</td>
+                                <td>c = 16 dm</td>
+                                <td>a = 17,8 dm</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">I/H?</th>
+                                <td>b = 28 m</td>
+                                <td>c = 39 m</td>
+                                <td>a = 49 m</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <hr>
+
+                    <div class="p-4 hatterszin rounded">
+                        <h2>Készítette: Medve Gergő és Viczián Dániel - 10/B</h2>
+                    </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="position-sticky" style="top: 2rem;">
+                    <div class="p-4 mb-3 hatterszin rounded">
+                        <h4>Pitagorasz</h4>
+                        <p class="mb-0">Püthagorasz, görög filozófus Szamosz szigetén született a Kr. e. VI. században.
+                            (Helyesírásunk szabályai szerint nevét Püthagorasznak írjuk, a róla elnevezett tételt
+                            viszont Pitagorasz-tételnek.) Utazásai és tanulmányai után visszatért szülőföldjére, ahol
+                            tanítani kezdett. Későbbi útjait követően egy titkos társulatot alapított, ahol a matematika
+                            mellett vallási és politikai kérdésekkel is foglalkozott. </p>
+                    </div>
+                    <div class="hatterszin rounded">
+                        <img class="img-fluid mx-auto rounded" src="../images/pitagorasz_szobor.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p class="float-end mt-3"><a href="#">Vissza a lap tetejére</a></p>
+        </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>

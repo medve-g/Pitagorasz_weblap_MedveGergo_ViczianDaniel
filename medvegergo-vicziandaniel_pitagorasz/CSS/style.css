@@ -1,0 +1,47 @@
+.pitagorasz_hatter {
+  object-fit: cover;
+  overflow: hidden;
+  min-height: 32rem;}
+
+body {
+  font-size: 1.35rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.hatterszin {
+  background-color: #E8FDE9;
+  border-color: #E8FDE9;
+}
+
+.hatterszin2 {
+  background-color: #777777;
+  border-color: #777777;
+}
+
+.btn,
+.btn:hover,
+.btn:focus,
+.btn:active {
+  text-shadow: none;
+  background-color: #E8FDE9;
+  color: #000000;
+}
+
+a:link {
+  color: #000000
+}
+
+a:visited {
+  color: #000000
+}
+
+a {text-decoration-color: #E8FDE9;}
+
+a:hover {
+  color: #000000
+}
+
+a:active {
+  color: #000000
+}
